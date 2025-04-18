@@ -108,3 +108,7 @@ bookstack-lms/
 ├── manage.py                      # Django CLI utility
 └── requirements.txt               # Python dependencies
 ```
+
+#📌 Assumptions
+This system is intended for educational or small-scale library use.
+Users have a basic understanding of Django and REST APIs.
