@@ -18,7 +18,9 @@ virtualenv
 Installation Steps
 
 **Clone the Repository**
+
 git clone https://github.com/Shaileshjaiswal1/bookstack-lms.git
+
 cd bookstack-lms
 
 **Set Up Virtual Environment**
