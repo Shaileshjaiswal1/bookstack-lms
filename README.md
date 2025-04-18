@@ -23,30 +23,33 @@ git clone https://github.com/Shaileshjaiswal1/bookstack-lms.git
 
 cd bookstack-lms
 
-
-
 **Set Up Virtual Environment**
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 **Install Dependencies**
+
 pip install -r requirements.txt
+
 Configure Database
 
 **Create a MySQL database named bookstack_lms.**
+
 Update the DATABASES section in lms_project/settings.py with your MySQL credentials:​
 BookStack
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'bookstack_lms',
-        'USER': 'your_username',
-        'PASSWORD': 'your_password',
-        'HOST': 'localhost',
-        'PORT': '3306',
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'bookstack_lms',
+            'USER': 'your_username',
+            'PASSWORD': 'your_password',
+            'HOST': 'localhost',
+            'PORT': '3306',
+        }
     }
-}
 
 
 **Apply Migrations**
