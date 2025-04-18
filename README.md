@@ -100,3 +100,47 @@ Access the application at http://127.0.0.1:8000/.
 The application is intended for educational or small-scale library management purposes.
 Users have a basic understanding of Django and RESTful APIs.
 The system is deployed in a secure environment where database credentials are protected.​
+
+
+
+# 📚 BookStack LMS
+
+A full-featured **Library Management System** built using **Django**, **Django REST Framework**, and **MySQL**. It provides a platform to manage library books through a user-friendly admin dashboard and RESTful APIs, along with a basic student interface.
+
+---
+
+## 🚀 Features
+
+- 🔐 Token-based Authentication
+- 🧑‍💼 Admin Book CRUD (Create, Read, Update, Delete)
+- 📚 Student Book View
+- 🛠 REST API Integration (DRF)
+- 🎨 Django Template UI for Admin and Student
+
+---
+
+## 🛠️ Setup Instructions
+
+### ✅ Prerequisites
+
+- Python 3.8+
+- MySQL Server installed and running
+- `pip` or `virtualenv`
+
+### 🧩 Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Shaileshjaiswal1/bookstack-lms.git
+cd bookstack-lms
+
+# 2. Create and activate virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # For Windows: venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Configure MySQL Database
+# Create a database named `bookstack_lms` in your MySQL server.
+
