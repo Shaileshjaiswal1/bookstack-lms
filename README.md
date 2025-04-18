@@ -67,9 +67,44 @@ python manage.py migrate
 
 # Start the development server
 python manage.py runserver
+
 # Open your browser and navigate to: http://127.0.0.1:8000/
 
 #🗂️ Project Structure
 ```
-bookstack-lms/ ├── lms/ # Root app directory ├── lms_project/ # Main Django project │ ├── init.py │ ├── asgi.py │ ├── settings.py # Project settings including DB & apps │ ├── urls.py # Main URL router │ └── wsgi.py │ ├── api/ # API Layer (DRF) │ ├── serializers.py # Serializers for models │ ├── urls.py # API-specific URLs │ └── views.py # API views │ ├── lms_app/ # Core application logic │ ├── admin.py # Admin panel setup │ ├── apps.py │ ├── models.py # Models: Book, User etc. │ ├── tests.py │ ├── urls.py # App-level routing │ └── views.py # Business logic for views │ ├── templates/ # Frontend templates │ ├── admin/ │ │ ├── add_book.html │ │ ├── adminlogin.html │ │ ├── dashboard.html │ │ ├── edit_book.html │ │ └── signup.html │ └── student/ │ ├── base.html │ └── view_books.html │ ├── manage.py # Django CLI utility └── requirements.txt # Python dependencies
+bookstack-lms/
+├── lms/                           # Root app directory
+├── lms_project/                   # Main Django project
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py                # Project settings including DB & apps
+│   ├── urls.py                    # Main URL router
+│   └── wsgi.py
+│
+├── api/                           # API Layer (DRF)
+│   ├── serializers.py             # Serializers for models
+│   ├── urls.py                    # API-specific URLs
+│   └── views.py                   # API views
+│
+├── lms_app/                       # Core application logic
+│   ├── admin.py                   # Admin panel setup
+│   ├── apps.py
+│   ├── models.py                  # Models: Book, User etc.
+│   ├── tests.py
+│   ├── urls.py                    # App-level routing
+│   └── views.py                   # Business logic for views
+│
+├── templates/                     # Frontend templates
+│   ├── admin/
+│   │   ├── add_book.html
+│   │   ├── adminlogin.html
+│   │   ├── dashboard.html
+│   │   ├── edit_book.html
+│   │   └── signup.html
+│   └── student/
+│       ├── base.html
+│       └── view_books.html
+│
+├── manage.py                      # Django CLI utility
+└── requirements.txt               # Python dependencies
 ```
