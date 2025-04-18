@@ -23,6 +23,8 @@ git clone https://github.com/Shaileshjaiswal1/bookstack-lms.git
 
 cd bookstack-lms
 
+
+
 **Set Up Virtual Environment**
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
